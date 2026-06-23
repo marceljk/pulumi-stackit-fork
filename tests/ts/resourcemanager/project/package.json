@@ -12,6 +12,15 @@
         "@pulumi/pulumi": "^3.113.0",
         "@stackitcloud/pulumi-stackit": "file:../../../../sdk/nodejs/bin"
     },
+    "overrides": {
+        "@pulumi/pulumi": {
+            "@opentelemetry/core": ">=2.8.0",
+            "js-yaml": ">=4.2.0"
+        },
+        "mocha": {
+            "serialize-javascript": ">=7.0.5"
+        }
+    },
     "scripts": {
         "test": "mocha -r ts-node/register test.ts"
     }
