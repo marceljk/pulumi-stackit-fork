@@ -22,7 +22,9 @@ require (
 	github.com/stackitcloud/stackit-sdk-go/services/telemetrylink v0.4.0 // indirect
 	github.com/stackitcloud/stackit-sdk-go/services/telemetryrouter v0.4.0 // indirect
 	github.com/stackitcloud/stackit-sdk-go/services/vpn v0.14.0 // indirect
-	google.golang.org/grpc v1.82.1 // indirect
+	golang.org/x/crypto v0.55.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
+	google.golang.org/grpc v1.83.2 // indirect
 )
 
 require (
@@ -66,6 +68,6 @@ require (
 	github.com/teambition/rrule-go v1.8.2 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	golang.org/x/mod v0.37.0 // indirect
-	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 )
